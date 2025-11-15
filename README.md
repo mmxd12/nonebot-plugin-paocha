@@ -11,9 +11,8 @@
 
 ## 📦 安装方式
 
-    ```shell
     pip install nonebot-plugin-paocha
-    ```
+
 ## 🔧 配置方法
 
 在 NoneBot2 的 `bot.py` 或插件加载文件中添加：
@@ -38,7 +37,7 @@ nonebot.load_plugin('nonebot-plugin-paocha')
 - `images/`: 图片库目录
 
 ## 🌟 具体路径
-    ```shell
+
     venv/
     └── lib/
         └── python3.x/
@@ -49,7 +48,7 @@ nonebot.load_plugin('nonebot-plugin-paocha')
                         ├── sign.ini            # 运行时自动创建
                         ├── data.ini            # 运行时自动创建  
                         └── images/              # 运行时自动创建
-    ```
+
 
 
 ## ✅ 依赖要求
@@ -67,3 +66,4 @@ MIT License
 
 - GitHub: [点击前往](https://github.com/mmxd12/nonebot-plugin-paocha)
 - pypi: [点击前往](https://pypi.org/project/nonebot-plugin-paocha/)
+
