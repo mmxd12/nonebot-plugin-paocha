@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nonebot-plugin-paocha"
-version = "1.1.0"
-description = "A NoneBot plugin for tea drinking sign-in system"
+version = "1.0.5"
+description = "这是一个用于群内泡茶，签到的nonebot插件"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {text = "MIT"}
 authors = [
@@ -21,7 +21,7 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 dependencies = [
-    "nonebot2>=2.4.4",
+    "nonebot2>=2.0.0",
     "nonebot-adapter-qq>=1.6.5",
     "httpx>=0.28.1",
 ]
@@ -29,6 +29,7 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["nonebot_plugin_paocha*"]
+exclude = ["tests*", "test*", "examples*", "docs*"]
 
-[tool.setuptools.package-data]
-nonebot_plugin_paocha = ["data/*", "data/images/*"]
+[project.entry-points."nonebot.plugin"]
+paocha = "nonebot_plugin_paocha"
