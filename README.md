@@ -89,7 +89,4 @@
 
 MIT License
 
-## 项目地址
 
-- GitHub: [点击前往](https://github.com/mmxd12/nonebot-plugin-paocha)
-- pypi: [点击前往](https://pypi.org/mmxd/nonebot-plugin-paocha/)
